@@ -2,30 +2,30 @@ import asyncio
 import re
 from playwright.async_api import async_playwright
 
-# URLS = [
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=63",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=64",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=65",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=66",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=67",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=68",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=69",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=70",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=71",
-#     "https://sanand0.github.io/tdsdata/js_table/?seed=72"
-# ]
 URLS = [
+    "https://sanand0.github.io/tdsdata/js_table/?seed=63",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=64",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=65",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=66",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=67",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=68",
     "https://sanand0.github.io/tdsdata/js_table/?seed=69",
     "https://sanand0.github.io/tdsdata/js_table/?seed=70",
     "https://sanand0.github.io/tdsdata/js_table/?seed=71",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=72",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=73",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=74",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=75",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=76",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=77",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=78"
+    "https://sanand0.github.io/tdsdata/js_table/?seed=72"
 ]
+# URLS = [
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=69",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=70",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=71",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=72",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=73",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=74",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=75",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=76",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=77",
+#     "https://sanand0.github.io/tdsdata/js_table/?seed=78"
+# ]
 
 async def main():
     total_sum = 0
