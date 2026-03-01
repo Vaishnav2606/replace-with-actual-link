@@ -1,0 +1,23 @@
+name: Playwright Table Scraper
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - run: |
+          pip install playwright
+          playwright install chromium
+          
+      - name: Run scraper for 24f2005374@ds.study.iitm.ac.in
+        run: python scraper.py
