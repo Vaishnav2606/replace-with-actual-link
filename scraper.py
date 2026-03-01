@@ -3,16 +3,16 @@ import re
 from playwright.async_api import async_playwright
 
 URLS = [
-    "https://replace-with-actual-link-for-seed-63.com",
-    "https://replace-with-actual-link-for-seed-64.com",
-    "https://replace-with-actual-link-for-seed-65.com",
-    "https://replace-with-actual-link-for-seed-66.com",
-    "https://replace-with-actual-link-for-seed-67.com",
-    "https://replace-with-actual-link-for-seed-68.com",
-    "https://replace-with-actual-link-for-seed-69.com",
-    "https://replace-with-actual-link-for-seed-70.com",
-    "https://replace-with-actual-link-for-seed-71.com",
-    "https://replace-with-actual-link-for-seed-72.com"
+    "https://sanand0.github.io/tdsdata/js_table/?seed=63",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=64",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=65",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=66",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=67",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=68",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=69",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=70",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=71",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=72"
 ]
 
 async def main():
